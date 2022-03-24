@@ -1,0 +1,204 @@
+body{
+  background-color: #56012A
+}
+
+header {
+  font-size:42px;
+  font-weight:bold;
+  font-family: 'Bebas Neue';
+  text-align:center;
+}
+
+h2{
+  font-size:35px;
+  font-weight:bold;
+  font-family:'Bebas Neue';
+  text-align:center;
+  color:#F6FFFE;
+}
+
+mark.white {
+  color:#F6FFFE;
+  background: none;
+}
+
+mark.yellow {
+  color:#F9BA2D;
+  background: none;
+}
+
+.contenedor{
+  width:100%;
+  /* max-width:1000px; */
+  /* margin:20px auto; */
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns:repeat(3,1fr);
+  grid-template-rows:repeat(5, auto);
+  grid-template-areas:"topnav topnav topnav"
+                      "header header header"
+                      "contenido contenido sidebar"
+                      "footer footer footer";
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contenedor>div,
+.contenedor .topnav,
+.contenedor .contenido,
+.contenedor .header,
+.contenedor .sidebar,
+.contenedor .footer
+{
+  padding:20px;
+  border-radius:4px;
+}
+
+.topnavdos {
+  margin:0;
+  list-style-type: none;
+  margin: 0;
+  margin-left:-8px;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+/* Style the links inside the navigation bar */
+.topnavdos a {
+  float: left!important;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  top:0;
+  text-decoration: none;
+  font-size: 25px!important;
+  font-family: 'Bebas Neue';
+  margin:0;
+  display: block;
+  border-right: 2px solid white;
+}
+
+/* Change the color of links on hover */
+.topnavdos a:hover {
+  background-color: #ddd!important;
+  color: black!important;
+}
+
+/* Add a color to the active/current link */
+.topnavdos a.active {
+  background-color: #F9BA2D!important;
+  color: white!important;
+  opacity:1!important;
+}
+
+.topnavdos:last-child {
+  border-right: none;
+}
+
+
+.footerbox{
+  text-align: center!important;
+}
+h5{
+  color: whitesmoke;
+  font-size: 30px;
+  text-align:center;
+  font-weight: bold;
+  font-family: 'Bebas Neue';
+  margin: 60px 0px 0px 0px; 
+  padding: 0px 0px 0px 0px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #e95950;
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #56012A;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 25px;
+}
+
+
+.dropbtn {
+  background-color: #DDCCD4;
+  color: black;
+  padding: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #F6FFFE;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: grey;;}
+
+.show {display: block;}

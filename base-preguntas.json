@@ -1,0 +1,12 @@
+[
+    {
+        "categoria": "Anatomía y embriología",
+        "pregunta": "Las estructuras cercanas al plano mediano del animal se indican con el término...",
+        "respuesta": "Medial",
+        "incorrecta1": "Lateral",
+        "incorrecta2": "Transveral",
+        "incorrecta3": "Axial",
+        "imagen": "imgs/planosanatomicos.png",
+        "objectFit": "cover"
+     }
+]

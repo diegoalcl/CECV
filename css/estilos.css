@@ -3,11 +3,25 @@ body{
 }
 
 header {
-  font-size:42px;
   font-weight:bold;
   font-family: 'Bebas Neue';
   text-align:center;
+  padding-top:70px;
 }
+
+/*Ajustar letra del encabezado segun tamaño del dispositivo*/
+@media screen and (min-width: 601px) {
+  .header {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    font-size: 21px;
+  }
+}
+/*Ajustar letra del encabezado segun tamaño del dispositivo*/
 
 h2{
   font-size:35px;
@@ -16,6 +30,20 @@ h2{
   text-align:center;
   color:#F6FFFE;
 }
+
+/*Ajustar letra del H2 segun tamaño del dispositivo*/
+@media screen and (min-width: 601px) {
+  .h2 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .h2 {
+    font-size: 18px;
+  }
+}
+/*Ajustar letra del H2 segun tamaño del dispositivo*/
 
 mark.white {
   color:#F6FFFE;
@@ -80,12 +108,26 @@ img {
   padding: 14px 16px;
   top:0;
   text-decoration: none;
-  font-size: 25px!important;
+  /* font-size: 25px; */
   font-family: 'Bebas Neue';
   margin:0;
   display: block;
   border-right: 2px solid white;
 }
+
+/*Ajustar letra de la barra de navegación segun tamaño del dispositivo*/
+@media screen and (min-width: 601px) {
+  .topnavdos {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnavdos {
+    font-size: 16px;
+  }
+}
+/*Ajustar letra de la barra de navegación segun tamaño del dispositivo*/
 
 /* Change the color of links on hover */
 .topnavdos a:hover {
@@ -153,6 +195,7 @@ color: white;
   gap: 10px;
   background-color: #56012A;
   padding: 10px;
+  font-family:'Bebas Neue';
 }
 
 .grid-container > div {
@@ -167,10 +210,11 @@ color: white;
   background-color: #DDCCD4;
   color: black;
   padding: 16px;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 25px;
+  /* font-weight: bold; */
   border: none;
   cursor: pointer;
+  font-family: 'Bebas neue';
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -200,5 +244,11 @@ color: white;
 }
 
 .dropdown a:hover {background-color: grey;;}
+
+.responsiveImage {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
 
 .show {display: block;}

@@ -8,5 +8,38 @@
         "incorrecta3": "Horizontal",
         "imagen": "imgs/planosanatomicos.png",
         "objectFit": "cover"
+     },
+
+     {
+        "categoria": "Anatomía y embriología",
+        "pregunta": "La estructura señalada con la letra B es la flexura...",
+        "respuesta": "Pontina",
+        "incorrecta1": "Céfalica",
+        "incorrecta2": "Cervical",
+        "incorrecta3": "Lumbar",
+        "imagen": "imgs/flexurasembrio.jpg",
+        "objectFit": "cover"
+     },
+
+     {
+        "categoria": "Anatomía y embriología",
+        "pregunta": "La estructura señalada con la letra A es la flexura...",
+        "respuesta": "Céfalica",
+        "incorrecta1": "Pontina",
+        "incorrecta2": "Cervical",
+        "incorrecta3": "Lumbar",
+        "imagen": "imgs/flexurasembrio.jpg",
+        "objectFit": "cover"
+     },
+
+     {
+        "categoria": "Anatomía y embriología",
+        "pregunta": "La estructura señalada con la letra C es la flexura...",
+        "respuesta": "Cervical",
+        "incorrecta1": "Céfalica",
+        "incorrecta2": "Pontina",
+        "incorrecta3": "Lumbar",
+        "imagen": "imgs/flexurasembrio.jpg",
+        "objectFit": "cover"
      }
 ]

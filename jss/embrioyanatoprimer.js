@@ -1,23 +1,3 @@
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-
 //A partir de aca esta el código para el funcionamiento de las preguntas
 
 let preguntas_aleatorias = true;
@@ -132,7 +112,7 @@ function oprimir_btn(i) {
     preguntas_correctas++;
     btn_correspondiente[i].style.background = "lightgreen";
   } else {
-    btn_correspondiente[i].style.background = "pink";
+    btn_correspondiente[i].style.background = "red";
   }
   for (let j = 0; j < 4; j++) {
     if (posibles_respuestas[j] == pregunta.respuesta) {

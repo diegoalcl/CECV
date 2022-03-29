@@ -40,9 +40,9 @@ function escogerPreguntaAleatoria() {
       //Aquí es donde el juego se reinicia
       if (mostrar_pantalla_juego_términado) {
         swal.fire({
-          title: "Juego finalizado",
+          title: "Práctica finalizada",
           text:
-            "Puntuación: " + preguntas_correctas + "/" + (preguntas_hechas - 1),
+            "Puntuación: " + preguntas_correctas + "/" + (preguntas_hechas),
           icon: "success"
         });
       }

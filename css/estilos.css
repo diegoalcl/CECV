@@ -7,7 +7,7 @@ header {
   font-family: 'Bebas Neue';
   text-align:center!important;
   padding-top:70px;
-  margin-top:-40px!important;
+  /* margin-top:-40px!important; */
   width:100%!important;
   /* margin:0 auto!important; */
   display: inline-block!important;
@@ -19,13 +19,14 @@ header {
 @media screen and (min-width: 601px) {
   .header {
     font-size: 42px;
-    margin-top:-20px;
+    margin-top:5px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .header {
     font-size: 21px;
+    margin-top:20px;
   }
 }
 /*Ajustar letra del encabezado segun tamaño del dispositivo*/
@@ -312,6 +313,63 @@ mark.purpleChip {
   color:#56012A;
   background: none;
   font-family: 'Bebas Neue';
+}
+
+.flex-containerContactos {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.flex-item-leftImageContactos {
+  background-color: #56012A;
+  padding: 10px;
+  flex: 10%;
+  font-family: 'Bebas Neue';
+  float:left;
+}
+
+.flex-item-leftInfoContactos {
+  background-color: #56012A;
+  padding: 10px;
+  flex: 20%;
+  font-family: 'Bebas Neue';
+  text-align: justify;
+}
+
+.flex-item-rightImageContactos {
+  background-color: #56012A;
+  padding: 10px;
+  flex: 10%;
+}
+
+.flex-item-rightInfoContactos {
+  background-color: #56012A;
+  padding: 10px;
+  flex: 20%;
+  font-family: 'Bebas Neue';
+  float:left;
+  text-align: justify;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+
+.responsiveImageContactos {
+  float: right;
+  margin: 25px 20px 20px 10px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  width: 100%;
+  max-width: 100px;
+  height: auto;
 }
 
 .show {display: block;}

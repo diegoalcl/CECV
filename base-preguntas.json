@@ -41,5 +41,32 @@
         "incorrecta3": "Lumbar",
         "imagen": "imgs/flexurasembrio.jpg",
         "objectFit": "cover"
-     }
+     },
+
+     {
+      "categoria": "Anatomía y embriología",
+      "pregunta": "El desarrollo de los miembros es una diferenciación del mesodermo...",
+      "respuesta": "Lateral",
+      "incorrecta1": "Intermedio",
+      "incorrecta2": "Paraxial",
+      "incorrecta3": "Ninguna es correcta"
+   },
+
+   {
+      "categoria": "Anatomía y embriología",
+      "pregunta": "En el orden Perissodactyla se agrupan los mamíferos que...",
+      "respuesta": "Poseen un grupo impar de dedos sobre los que apoyan",
+      "incorrecta1": "Poseen un grupo par de dedos sobre los que apoyan",
+      "incorrecta2": "Tiene sus dedos separados",
+      "incorrecta3": "Ninguna es correcta"
+   },
+
+   {
+   "categoria": "Anatomía y embriología",
+   "pregunta": "Del ectodermo no neural se origina...",
+   "respuesta": "La epidermis",
+   "incorrecta1": "La dermis",
+   "incorrecta2": "Los melanocitos de la piel",
+   "incorrecta3": "Ninguna es correcta"
+   }
 ]

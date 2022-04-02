@@ -132,7 +132,7 @@ img {
 
 @media screen and (max-width: 600px) {
   .topnavdos {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 /*Ajustar letra de la barra de navegación segun tamaño del dispositivo*/
@@ -326,6 +326,7 @@ mark.purpleChip {
 .flex-item-leftImageContactos {
   background-color: #56012A;
   padding: 10px;
+  margin-right:-20px;
   flex: 10%;
   font-family: 'Bebas Neue';
   float:left;
@@ -335,6 +336,8 @@ mark.purpleChip {
   background-color: #56012A;
   padding: 10px;
   flex: 20%;
+  color:#F6FFFE;
+  font-weight:bold;
   font-family: 'Bebas Neue';
   text-align: justify;
 }
@@ -343,12 +346,15 @@ mark.purpleChip {
   background-color: #56012A;
   padding: 10px;
   flex: 10%;
+  margin-right:-20px;
 }
 
 .flex-item-rightInfoContactos {
   background-color: #56012A;
   padding: 10px;
   flex: 20%;
+  color:#F6FFFE;
+  font-weight:bold;
   font-family: 'Bebas Neue';
   float:left;
   text-align: justify;

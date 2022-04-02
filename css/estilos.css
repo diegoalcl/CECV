@@ -345,8 +345,10 @@ mark.purpleChip {
 .flex-item-rightImageContactos {
   background-color: #56012A;
   padding: 10px;
-  flex: 10%;
   margin-right:-20px;
+  flex: 10%;
+  font-family: 'Bebas Neue';
+  float:left;
 }
 
 .flex-item-rightInfoContactos {

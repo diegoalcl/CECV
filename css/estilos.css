@@ -412,7 +412,7 @@ mark.purpleChip {
   z-index: 99;
   height: 100%;
   width: 150px;
-  background-image: linear-gradient(90deg, #56012A, transparent);
+  /* background-image: linear-gradient(90deg, #56012A, transparent); */
 }
 
 .cover-aulas::after {
@@ -423,7 +423,7 @@ mark.purpleChip {
   z-index: 99;
   height: 100%;
   width: 150px;
-  background-image: linear-gradient(-90deg, #56012A, transparent);
+  /* background-image: linear-gradient(-90deg, #56012A, transparent); */
 }
 
 .scroll-images-aulas {
@@ -454,6 +454,9 @@ mark.purpleChip {
   width: 100%;
   height: 85%;
   align-items: center;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 
 .child-img-aulas:hover + .nombreAula{

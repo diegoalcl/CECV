@@ -27,3 +27,15 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+  //Función para navegar entre imágenes de .facultad
+
+  function scrolll() {
+      var left = document.querySelector(".scroll-images-aulas");
+      left.scrollBy(-350, 0)
+  }
+
+  function scrollr() {
+      var right = document.querySelector(".scroll-images-aulas");
+      right.scrollBy(350, 0)
+  }

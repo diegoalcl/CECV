@@ -396,6 +396,16 @@ mark.purpleChip {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .main-scroll-div-aulas {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 25px;
+  }
 }
 
 .cover-aulas {
@@ -412,7 +422,7 @@ mark.purpleChip {
   z-index: 99;
   height: 100%;
   width: 150px;
-  /* background-image: linear-gradient(90deg, #56012A, transparent); */
+  background-image: linear-gradient(90deg, #56012A, transparent);
 }
 
 .cover-aulas::after {
@@ -423,7 +433,7 @@ mark.purpleChip {
   z-index: 99;
   height: 100%;
   width: 150px;
-  /* background-image: linear-gradient(-90deg, #56012A, transparent); */
+  background-image: linear-gradient(-90deg, #56012A, transparent);
 }
 
 .scroll-images-aulas {
@@ -446,6 +456,16 @@ mark.purpleChip {
   overflow: hidden;
 }
 
+@media screen and (max-width: 600px) {
+  .child-aulas {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 25px;
+    padding: 0 4em;
+  }
+}
+
 .scroll-images-aulas::-webkit-scrollbar {
   -webkit-appearance: none;
 }
@@ -455,8 +475,8 @@ mark.purpleChip {
   height: 85%;
   align-items: center;
   width: 100%;
-  max-width: 400px;
-  height: auto;
+  /* max-width: 400px; */
+  /* height: auto; */
 }
 
 .child-img-aulas:hover + .nombreAula{
@@ -470,10 +490,16 @@ mark.purpleChip {
   font-size: 50px;
   outline: none;
   border: none;
-  padding: opx 20px;
+  padding: 0px 20px;
   cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+  .icon-aulas {
+    font-size: 30px;
+    align-items: left;
+  }
+}
 .icon-aulas:hover {
   color: #F9BA2D;
 }

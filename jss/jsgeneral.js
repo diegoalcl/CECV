@@ -40,6 +40,8 @@ function myFunction() {
   //     right.scrollBy(350, 0)
   // }
 
+
+  //Para el selector de aulas
   $("select").change(function() {
     $('.box').hide();
     $('.' + $(':selected', this).attr('value')).show();

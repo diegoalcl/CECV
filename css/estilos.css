@@ -569,6 +569,13 @@ mark.purpleChip {
   text-align:center;
 }
 
+@media screen and (max-width: 600px) {
+  .textoAulas {
+    font-size: 16px;
+  }
+}
+/*Ajustar letra del textoAulas segun tamaño del dispositivo*/
+
 
 /* .aulamagna {
   
@@ -582,7 +589,7 @@ mark.purpleChip {
 
 .columnAulas {
   float: left;
-  width: 33.33%;
+  width: 49.45%;
   /* padding: 5px; */
   align-items: center;
 }
@@ -594,6 +601,11 @@ mark.purpleChip {
   display: table;
 }
 
+.imagenesAulas{
+  width: 100%;
+  /* max-width: 400px; */
+  height: auto;
+}
 .show {display: block;}
 
 /* sin el show se rompen los botones de las materias */

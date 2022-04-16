@@ -568,6 +568,8 @@ mark.purpleChip {
   color:#F6FFFE;
   text-align:center;
 }
+
+
 /* .aulamagna {
   
 } */
@@ -577,6 +579,20 @@ mark.purpleChip {
 .tercermagna {
   background: #0000ff;
 } */
+
+.columnAulas {
+  float: left;
+  width: 33.33%;
+  /* padding: 5px; */
+  align-items: center;
+}
+
+/* Clearfix (clear floats) */
+.rowAulas::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 .show {display: block;}
 

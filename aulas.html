@@ -5,8 +5,10 @@
     <link rel="icon" href="imgs/pym.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/a59b9b09ab.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/a59b9b09ab.js" crossorigin="anonymous"></script> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">  
+    </script>  
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
     <style>
@@ -24,7 +26,7 @@
     </div>
     <header class="header"><h1><mark class="white">FRANJA MORADA</mark><mark class="yellow"> VETERINARIAS</mark></h1></header>
     
-        <div class="main-scroll-div-aulas">
+        <!-- <div class="main-scroll-div-aulas">
             <div>
                 <button class="icon-aulas" onclick="scrolll()"> <i class="fas fa-angle-double-left"></i></button>
             </div>
@@ -41,7 +43,30 @@
             <div>
                 <button class="icon-aulas" onclick="scrollr()"> <i class="fas fa-angle-double-right"></i></button>
             </div>
-        </div>
+        </div> -->
+        <div>
+            <select class="selectorAulas">
+              <option style="display: none;">Elegi el aula</option>
+              <option value="aulamagna">Aula magna</option>
+              <option value="segundamagna">Segunda aula magna</option>
+              <option value="tercermagna">Tercer aula magna</option>
+            </select>
+          </div>
+          <div class="aulamagna box">
+              <h3>Aula magna</h3>
+              <img src="imgs/magnaejemplo.jpg"/>
+              <div class="textoAulas">Texto de como llegar al aula</div>
+          </div>
+          <div class="segundamagna box">
+              <h3>Segunda magna</h3>
+              <img src="imgs/magnaejemplo.jpg"/>
+              <div class="textoAulas">Texto de como llegar al aula</div>
+          </div>
+          <div class="tercermagna box">
+              <h3>Tercer magna</h3>
+              <img src="imgs/magnaejemplo.jpg"/>
+              <div class="textoAulas">Texto de como llegar al aula</div>
+          </div>
 
     <div class="footer">
         <div class="containerfooter">

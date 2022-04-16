@@ -28,14 +28,19 @@ function myFunction() {
     }
   }
 
-  //Función para navegar entre imágenes de .facultad
+  //Función para navegar entre imágenes de .facultad NO SE USA
 
-  function scrolll() {
-      var left = document.querySelector(".scroll-images-aulas");
-      left.scrollBy(-350, 0)
-  }
+  // function scrolll() {
+  //     var left = document.querySelector(".scroll-images-aulas");
+  //     left.scrollBy(-350, 0)
+  // }
 
-  function scrollr() {
-      var right = document.querySelector(".scroll-images-aulas");
-      right.scrollBy(350, 0)
-  }
+  // function scrollr() {
+  //     var right = document.querySelector(".scroll-images-aulas");
+  //     right.scrollBy(350, 0)
+  // }
+
+  $("select").change(function() {
+    $('.box').hide();
+    $('.' + $(':selected', this).attr('value')).show();
+  });

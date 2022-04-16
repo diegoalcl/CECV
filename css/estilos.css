@@ -53,6 +53,29 @@ h2{
 }
 /*Ajustar letra del H2 segun tamaño del dispositivo*/
 
+h3{
+  font-size:35px;
+  font-weight:bold;
+  font-family:'Bebas Neue';
+  text-decoration: underline;
+  text-align:center;
+  color:#F6FFFE;
+}
+
+/*Ajustar letra del H2 segun tamaño del dispositivo*/
+@media screen and (min-width: 601px) {
+  .h3 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .h3 {
+    font-size: 18px;
+  }
+}
+/*Ajustar letra del H3 segun tamaño del dispositivo*/
+
 mark.white {
   color:#F6FFFE;
   background: none;
@@ -383,16 +406,16 @@ mark.purpleChip {
 
 /*Abajo el css para el html de aulas*/
 
-.main-scroll-div-aulas {
+/* .main-scroll-div-aulas {
   width: 90%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   /* border: 2px solid red; */
-  justify-content: center;
+ /* justify-content: center;
   /* height: 100vh; */
-  width: 100%;
+ /* width: 100%;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -452,7 +475,7 @@ mark.purpleChip {
   height: 450px;
   margin: 1px 10px;
   cursor: pointer;
-  /* border: 1px solid rgba(207, 201, 201, .3); */
+  /* border: 1px solid rgba(207, 201, 201, .3);
   overflow: hidden;
 }
 
@@ -477,7 +500,7 @@ mark.purpleChip {
   width: 100%;
   /* max-width: 400px; */
   /* height: auto; */
-}
+/*}
 
 .child-img-aulas:hover + .nombreAula{
   color: #F9BA2D!important;
@@ -515,7 +538,45 @@ mark.purpleChip {
 
 .nombreAula:hover{
   color: #F9BA2D;
+} */
+
+.box {
+  padding: 20px;
+  display: none;
+  margin-top: 20px;
+  /* border: 1px solid #000; */
 }
+.box img {
+  float: center;
+  /* width: 150px;
+  height: 100px; */
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.selectorAulas{
+  text-align:center;
+  font-size:20px;
+  background-color:#F6FFFE;
+  font-family: 'Bebas neue';
+}
+
+.textoAulas{
+  font-size:22px;
+  font-family: 'Bebas neue';
+  color:#F6FFFE;
+  text-align:center;
+}
+/* .aulamagna {
+  
+} */
+/* .otramagna {
+  background: #00ff00;
+}
+.tercermagna {
+  background: #0000ff;
+} */
 
 .show {display: block;}
 
